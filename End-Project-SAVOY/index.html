@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/scss/pages/homepage/homepage.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section id="navigation">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <div class="navleft">
+                            <ul>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a class="shopBtn" href="">Shop</a>
+                                </li>
+                                <li>
+                                    <a class="categoriesBtn" href="">Categories<sup>NEW</sup></a>
+                                </li>
+                                <li>
+                                    <a class="pagesBtn" href="">Pages</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="logimg">
+                            <a href="">
+                                <img src="./assets/image/HeaderLogo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <div class="navright">
+                            <ul>
+                                <li><i class="fa-regular fa-heart"></i></li>
+                                <li><span>Sign In</span></li>
+                                <li><span>Cart</span><sup>0</sup></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="shop-pages d-none">
+                    <ul>
+                        <li><a href="">Cart</a></li>
+                        <li><a href="">Checkout</a></li>
+                        <li><a href="">Wishlist</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="categoriestitle d-none">
+                        <div class="bags">
+                            <img src="./assets/image/bags.jpg" alt="">
+                            <span>Bags & Backpacks</span>
+                        </div>
+
+                        <div class="decoration">
+                            <img src="./assets/image/decor.jpg" alt="">
+                            <span>Decoration</span>
+                        </div>
+
+                        <div class="essentials">
+                            <img src="./assets/image/aksesuar.jpg" alt="">
+                            <span>Essentials</span>
+                        </div>
+
+                        <div class="interior">
+                            <img src="./assets/image/interrior.jpg" alt="">
+                            <span>Interior</span>
+                        </div>
+
+                        <div class="allcategories">
+                            <img src="./assets/image/allcategories.jpg" alt="">
+                            <span>Shop All</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="pages d-none">
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Checkout</a></li>
+                        <li><a href="">Cart</a></li>
+                        <li><a href="">Wishlist</a></li>
+                        <li><a href="">Products</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <!-- SLIDER -->
+
+        <div class="container-fluid" style="padding: 0px;">
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true"
+                space-between="30" loop="true">
+                <swiper-slide>
+                    <div class="interriorinfo">
+                        <h3>Contemporary Pendant Lighting</h3>
+                        <a href="">Interior</a>
+                    </div>
+                    <img src="./assets/image/slider-black-lamp.jpg" alt="">
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="decorationinfo">
+                        <h3>Minimal Rotating Disc Wall Clock</h3>
+                        <a href="">Decoration</a>
+                    </div>
+                    <img src="./assets/image/Clockslider.jpg" alt="">
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="essentialsinfo">
+                        <h3>Bamboo Zigzag Pattern Basket</h3>
+                        <a href="">Essentials</a>
+                    </div>
+                    <img src="./assets/image/essentials-slider.jpg" alt="">
+                </swiper-slide>
+            </swiper-container>
+        </div>
+
+        <!-- Categories/Search/Filter/Sorted -->
+
+        <!-- <section id="categories-search-filter">
+            <div class="container-fluid my-3">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="categoriesname">
+                            <ul>
+                                <li>All<span>/</span></li>
+                                <li>Bags & Backpacks<span>/</span></li>
+                                <li>Decoration<span>/</span></li>
+                                <li>Essentials<span>/</span></li>
+                                <li>Interior</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <ul>
+                            <li>Filter<span>/</span></li>
+                            <li>Sort<span>/</span></li>
+                            <li>Search</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="ourproductssection">
+           <div class="container my-4">
+            <div class="ourproducts">
+                <div class="line"></div>
+                <div class="ourproductstitle">
+                    <h2>Our Products</h2>
+                </div>
+                <div class="line"></div>
+            </div>
+           </div>
+        </section>
+
+        <section id="tabmenu">
+            <div class="container-fluid my-5">
+                <div class="col-lg-12">
+                    <div class="tab-menu">
+                        <div data-id="tab1" class="item active">Featured</div>
+                        <div data-id="tab2" class="item">Bestseller</div>
+                        <div data-id="tab3" class="item">Latest</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="content">
+                        <div data-id="tab1" class="item">
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/interior1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/interrior2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Modern Shell Chair</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>255.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/interior1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/interrior2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Modern Shell Chair</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>255.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/interior1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/interrior2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Modern Shell Chair</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>255.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/interior1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/interrior2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Modern Shell Chair</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>255.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/interior1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/interrior2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Modern Shell Chair</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>255.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/interior1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/interrior2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Modern Shell Chair</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>255.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/interior1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/interrior2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Modern Shell Chair</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>255.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/interior1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/interrior2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Modern Shell Chair</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>255.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/interior1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/interrior2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Modern Shell Chair</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>255.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/interior1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/interrior2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Modern Shell Chair</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>255.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/interior1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/interrior2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Modern Shell Chair</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>255.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/interior1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/interrior2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Modern Shell Chair</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>255.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-id="tab2" class="item d-none">
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/lighthouse1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/lighthouse2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Lighthouse Lantern</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>125.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/lighthouse1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/lighthouse2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Lighthouse Lantern</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>125.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/lighthouse1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/lighthouse2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Lighthouse Lantern</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>125.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/lighthouse1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/lighthouse2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Lighthouse Lantern</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>125.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/lighthouse1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/lighthouse2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Lighthouse Lantern</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>125.00</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-id="tab3" class="item d-none">
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/bag1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/bag2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Hans Backpack</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>65.40</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/bag1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/bag2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Hans Backpack</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>65.40</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/bag1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/bag2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Hans Backpack</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>65.40</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/bag1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/bag2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Hans Backpack</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>65.40</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="productcart">
+                                    <img class="firstimg" src="./assets/image/bag1.jpg" alt="">
+                                    <img class="secondimg" src="./assets/image/bag2.jpg" alt="">
+                                    <div class="productinfo">
+                                        <h6>Hans Backpack</h6>
+                                       <div class="pricelike">
+                                        <span class="pricecurrency">$<span>65.40</span></span>
+                                        <i class="fa-regular fa-heart"></i>
+                                       </div>
+                                        <a href="" class="showmore">Show more</a>
+                                        <div class="rating">
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/e29b1b43d1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="./assets/js/home.js"></script>
+
+</body>
+
+</html>
