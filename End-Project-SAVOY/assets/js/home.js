@@ -119,4 +119,29 @@ firstImgs.forEach(firstImg => {
 });
 
 
-////////////////
+//////////////// wishlist icon heart //////
+
+let hearts = document.querySelectorAll(".content .productcart .like");
+
+hearts.forEach(heart => {
+    
+    heart.addEventListener("click",function(){
+
+        this.classList.add("d-none");
+        this.nextElementSibling.classList.remove("d-none");
+})
+});
+
+
+let likeHearts = document.querySelectorAll(".content .productcart .fa-solid");
+
+likeHearts.forEach(likeHeart => {
+    
+    likeHeart.addEventListener("click",function(){
+
+        this.classList.add("d-none");
+        this.previousElementSibling.classList.remove("d-none");
+})
+});
+
+///////////////////
