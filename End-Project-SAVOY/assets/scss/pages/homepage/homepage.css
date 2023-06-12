@@ -96,6 +96,11 @@
   color: #dc9814;
 }
 
+#navigation .navright ul li span a {
+  text-decoration: none;
+  color: #686868;
+}
+
 #navigation .navright ul li sup {
   color: #dc9814;
   position: relative;
@@ -462,16 +467,6 @@ swiper-container swiper-slide img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-#categories-search-filter .categoriesname ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#categories-search-filter .categoriesname ul li {
-  list-style: none;
 }
 
 #ourproductssection .ourproducts {

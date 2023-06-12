@@ -16,7 +16,7 @@
 
 #navigation .navleft {
   width: 100%;
-  height: 78px;
+  height: 65px;
   padding-top: 14px;
   padding-bottom: 14px;
   padding-left: 18px;
@@ -66,7 +66,7 @@
 
 #navigation .navright {
   width: 100%;
-  height: 78px;
+  height: 65px;
   position: relative;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -373,143 +373,100 @@
   color: #dc9814;
 }
 
-#blogpage .container-fluid {
-  padding-left: 65px;
-  padding-right: 65px;
+#cart {
+  margin-top: 50px;
 }
 
-#blogpage .tabmenu {
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 80px;
+#cart .container-fluid {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-#blogpage .tabmenu .active {
-  color: #dc9814;
+#cart .container-fluid .table .item {
+  padding-top: 29px;
 }
 
-#blogpage .tabmenu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0px;
-}
-
-#blogpage .tabmenu ul li {
-  list-style: none;
-  color: #777777;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-#blogpage .tabmenu ul li:hover {
-  color: #dc9814;
-}
-
-#blogpage .tabmenu ul li span {
-  margin-left: 15px;
-  margin-right: 15px;
-  color: #CCCCCC;
-}
-
-#blogpage .tabmenu ul li span:hover {
-  color: #CCCCCC;
-}
-
-#blogpage .tabmenu ul .allcategories {
-  margin-left: 0px;
-}
-
-#blogpage .content {
-  width: 100%;
-}
-
-#blogpage .content .item {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-#blogpage .content .item .blogcart {
-  width: 379px;
-  height: 798px;
-  position: relative;
-}
-
-#blogpage .content .item .blogcart .blogplus {
-  width: 379px;
-  height: 513px;
-  background-color: #282828;
-  opacity: 0.8;
-  position: absolute;
-  top: 0px;
-  z-index: 1;
-}
-
-#blogpage .content .item .blogcart .blogplus i {
-  color: #dc9814;
-  font-size: 65px;
-  font-weight: 100;
-  position: absolute;
-  top: 44%;
-  left: 44%;
-  cursor: pointer;
-}
-
-#blogpage .content .item .blogcart .cartimg {
-  width: 379px;
-  height: 513px;
-}
-
-#blogpage .content .item .blogcart .cartimg img {
-  width: 379px;
-  height: 513px;
-}
-
-#blogpage .content .item .blogcart span {
-  color: #A1A1A1;
-  border-bottom: 1px solid #CCCCCC;
-  margin-left: 5px;
-  font-size: 14px;
-}
-
-#blogpage .content .item .blogcart h2 {
-  font-weight: 500;
-}
-
-#blogpage .content .item .blogcart h2 a {
-  text-decoration: none;
-  color: #282828;
-  font-size: 22px;
-}
-
-#blogpage .content .item .blogcart p {
-  color: #777777;
-  font-size: 16px;
-  line-height: 27px;
-}
-
-#blogpage .content .item .blogcart a {
-  text-decoration: none;
-}
-
-#blogpage .content .item .blogcart a span {
-  color: #dc9814;
+#cart .container-fluid .table .item input {
+  width: 60px;
   border: none;
-  font-size: 16px;
+  outline: none;
+  background-color: white;
 }
 
-#blogpage .content .item .blogcart a i {
-  color: #dc9814;
-  margin-left: 5px;
+#cart .container-fluid .fa-minus {
+  color: red;
+  padding-right: 30px;
+}
+
+#cart .container-fluid .fa-plus {
+  color: chartreuse;
+}
+
+#cart .container-fluid .fa-xmark {
+  color: red;
+  font-size: 23px;
+}
+
+#cart .container-fluid .totalprice {
+  color: red;
+}
+
+#cart .container-fluid .shopcheckout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#cart .container-fluid .shopcheckout .getshop {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #282828;
+  color: #AAAAAA;
+  font-weight: 500;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+#cart .container-fluid .shopcheckout .getshop:hover {
+  border: 1px solid #282828;
+  background-color: white;
+  color: #282828;
+}
+
+#cart .container-fluid .shopcheckout .getcheckout {
+  display: block;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #282828;
+  color: #AAAAAA;
+  font-weight: 500;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+#cart .container-fluid .shopcheckout .getcheckout:hover {
+  border: 1px solid #282828;
+  background-color: white;
+  color: #282828;
 }
 
 #footer {
   background-color: #282828;
   height: 190px;
+  margin-top: 50px;
 }
 
 #footer .footerimg {
@@ -610,4 +567,4 @@
 #footer .footersocial ul li a:hover {
   color: #EEEEEE;
 }
-/*# sourceMappingURL=blogpage.css.map */
+/*# sourceMappingURL=cartpage.css.map */

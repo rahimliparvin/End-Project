@@ -98,6 +98,11 @@
   color: #dc9814;
 }
 
+#navigation .navright ul li span a {
+  text-decoration: none;
+  color: #686868;
+}
+
 #navigation .navright ul li sup {
   color: #dc9814;
   position: relative;

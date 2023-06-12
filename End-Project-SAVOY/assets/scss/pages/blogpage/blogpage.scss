@@ -97,6 +97,11 @@
                     &:hover {
                         color: #dc9814;
                     }
+
+                    a{
+                        text-decoration: none;
+                        color: #686868;
+                    }
                 }
 
                 sup {
@@ -435,7 +440,7 @@
                 .blogplus{
 
                     width: 379px;
-                    height: 513px ;
+                    height: 513px;
                     background-color: #282828;
                     opacity: 0.8;
                     position: absolute;
@@ -455,9 +460,11 @@
 
                 .cartimg{
                     width: 379px;
+                    height: 513px;
 
                     img{
                         width: 379px;
+                        height: 513px;
                     }
                 }
 

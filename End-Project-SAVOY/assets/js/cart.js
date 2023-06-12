@@ -1,8 +1,6 @@
 "use strict";
 
 
-
-
 let shopBtn = document.querySelector(".shopBtn");
 
 
@@ -27,9 +25,7 @@ shopBtn.addEventListener("mouseout",function(e){
 })
 
 
-
-//////////////// Categories Header /////////////////////
-
+//////////
 
 let categoriesBtn = document.querySelector(".categoriesBtn");
 
@@ -51,10 +47,9 @@ categoriesBtn.addEventListener("mouseout",function(e){
     categoriesTitle.addEventListener("mouseout", function(){
         categoriesTitle.classList.add("d-none");
     })
-});
+})
 
-/////////////////////// 
-
+//////////////
 
 let pagesBtn = document.querySelector(".pagesBtn");
 
@@ -79,56 +74,32 @@ pagesBtn.addEventListener("mouseout",function(e){
     })
 });
 
+///////////////// Plus Minus /////////////////
 
 
+let minus = document.querySelector("#cart .table .fa-minus");
 
-///////////////// Tab-Menu /////////////////
+minus.addEventListener("click",function(){
 
-let headers = document.querySelectorAll("#blogpage .tabmenu .item");
+    let count = document.querySelector("#cart .table .item input").value;
 
-let contents = document.querySelectorAll("#blogpage .content .item");
+   if(count > 1 ){
 
-headers.forEach(element => {
-    element.addEventListener("click", function(){
-        document.querySelector("#blogpage .tabmenu .active").classList.remove("active");
-        this.classList.add("active");
+    count = count - 1;
 
-        contents.forEach(content => {
-          if(content.getAttribute("data-id") == this.getAttribute("data-id"))
-          {
-            content.classList.remove("d-none");
-          }
-          else{
-            content.classList.add("d-none");
-          }
-        });
+    document.querySelector("#cart .table .item input").value = count;
 
-    })
+   }
 });
 
-///////////////// BlogPlus d-none ///////////////
+let plus = document.querySelector("#cart .table .fa-plus");
 
-let cartImgs = document.querySelectorAll("#blogpage .content .blogcart .cartimg");
+plus.addEventListener("click",function(){
 
-cartImgs.forEach(cartImg => {
-    
-    cartImg.addEventListener("mouseover",function(){
+    let count = document.querySelector("#cart .table .item input").value;
 
-        this.nextElementSibling.classList.remove("d-none");
-    })
+    count = parseInt(count) + 1;
 
-    cartImg.addEventListener("mouseout",function(){
-        this.nextElementSibling.classList.add("d-none");
-    })
-
-    cartImg.nextElementSibling.addEventListener("mouseover",function(){
-
-        this.classList.remove("d-none");
-    })
-
-    cartImg.nextElementSibling.addEventListener("mouseout",function(){
-
-        this.classList.add("d-none");
-    })
+    document.querySelector("#cart .table .item input").value = count;
 
 });
