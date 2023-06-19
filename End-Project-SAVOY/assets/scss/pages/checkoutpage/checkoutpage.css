@@ -1,0 +1,898 @@
+#checkout {
+  margin-top: 60px;
+}
+
+#checkout .container-fluid {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+#checkout .container-fluid .billingdetails .please {
+  display: none;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  /* form starting stylings ------------------------------- */
+  /* LABEL ======================================= */
+  /* active state */
+  /* BOTTOM BARS ================================= */
+  /* active state */
+  /* HIGHLIGHTER ================================== */
+  /* active state */
+  /* ANIMATIONS ================ */
+}
+
+#checkout .container-fluid .billingdetails .first-lastname body {
+  background: url(https://scotch.io/wp-content/uploads/2014/07/61.jpg);
+}
+
+#checkout .container-fluid .billingdetails .first-lastname .container {
+  font-family: 'Roboto';
+  width: 600px;
+  margin: 30px auto 0;
+  display: block;
+  background: #FFF;
+  padding: 10px 50px 50px;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname h2 small {
+  font-weight: normal;
+  color: #888;
+  display: block;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname .footer {
+  text-align: center;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname .footer a {
+  color: #53B2C8;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname .group {
+  margin-top: 12px;
+  position: relative;
+  margin-bottom: 1px;
+  width: 49%;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname input {
+  font-size: 18px;
+  padding: 10px 5px 10px 5px;
+  display: block;
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname input:focus {
+  outline: none;
+  border: none !important;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname span {
+  color: red;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname input:focus ~ label,
+#checkout .container-fluid .billingdetails .first-lastname input:valid ~ label {
+  top: -15px;
+  font-size: 14px;
+  color: red;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname .bar {
+  position: relative;
+  display: block;
+  width: 550px;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname .bar:before,
+#checkout .container-fluid .billingdetails .first-lastname .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  padding-left: 0px;
+  position: absolute;
+  background: red;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname .bar:before {
+  left: 0%;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname .bar:after {
+  right: 50%;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname input:focus ~ .bar:before,
+#checkout .container-fluid .billingdetails .first-lastname input:focus ~ .bar:after {
+  width: 50%;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname .highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#checkout .container-fluid .billingdetails .first-lastname input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: red;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@keyframes inputHighlighter {
+  from {
+    background: red;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city {
+  width: 636px;
+  /* form starting stylings ------------------------------- */
+  /* LABEL ======================================= */
+  /* active state */
+  /* BOTTOM BARS ================================= */
+  /* active state */
+  /* HIGHLIGHTER ================================== */
+  /* active state */
+  /* ANIMATIONS ================ */
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city body {
+  background: url(https://scotch.io/wp-content/uploads/2014/07/61.jpg);
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city .container {
+  font-family: 'Roboto';
+  width: 600px;
+  margin: 30px auto 0;
+  display: block;
+  background: #FFF;
+  padding: 10px 50px 50px;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city h2 small {
+  font-weight: normal;
+  color: #888;
+  display: block;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city .footer {
+  text-align: center;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city .footer a {
+  color: #53B2C8;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city .group {
+  margin-top: 12px;
+  position: relative;
+  margin-bottom: 1px;
+  width: 100%;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city input:focus {
+  outline: none;
+  border: none !important;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city span {
+  color: red;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city input:focus ~ label,
+#checkout .container-fluid .billingdetails .companyname-address-city input:valid ~ label {
+  top: -15px;
+  font-size: 14px;
+  color: red;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city .bar {
+  position: relative;
+  display: block;
+  width: 572px;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city .bar:before,
+#checkout .container-fluid .billingdetails .companyname-address-city .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: red;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city .bar:before {
+  left: 50%;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city .bar:after {
+  right: 50%;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city input:focus ~ .bar:before,
+#checkout .container-fluid .billingdetails .companyname-address-city input:focus ~ .bar:after {
+  width: 50%;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city .highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#checkout .container-fluid .billingdetails .companyname-address-city input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: red;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@keyframes inputHighlighter {
+  from {
+    background: red;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+#checkout .container-fluid .billingdetails .state-postcode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  /* form starting stylings ------------------------------- */
+  /* LABEL ======================================= */
+  /* active state */
+  /* BOTTOM BARS ================================= */
+  /* active state */
+  /* HIGHLIGHTER ================================== */
+  /* active state */
+  /* ANIMATIONS ================ */
+}
+
+#checkout .container-fluid .billingdetails .state-postcode body {
+  background: url(https://scotch.io/wp-content/uploads/2014/07/61.jpg);
+}
+
+#checkout .container-fluid .billingdetails .state-postcode .container {
+  font-family: 'Roboto';
+  width: 600px;
+  margin: 30px auto 0;
+  display: block;
+  background: #FFF;
+  padding: 10px 50px 50px;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode h2 small {
+  font-weight: normal;
+  color: #888;
+  display: block;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode .footer {
+  text-align: center;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode .footer a {
+  color: #53B2C8;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode .group {
+  margin-top: 12px;
+  position: relative;
+  margin-bottom: 1px;
+  width: 49%;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode input {
+  font-size: 18px;
+  padding: 10px 5px 10px 5px;
+  display: block;
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode input:focus {
+  outline: none;
+  border: none !important;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode span {
+  color: red;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode input:focus ~ label,
+#checkout .container-fluid .billingdetails .state-postcode input:valid ~ label {
+  top: -15px;
+  font-size: 14px;
+  color: red;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode .bar {
+  position: relative;
+  display: block;
+  width: 280px;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode .bar:before,
+#checkout .container-fluid .billingdetails .state-postcode .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: red;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode .bar:before {
+  left: 50%;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode .bar:after {
+  right: 50%;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode input:focus ~ .bar:before,
+#checkout .container-fluid .billingdetails .state-postcode input:focus ~ .bar:after {
+  width: 50%;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode .highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#checkout .container-fluid .billingdetails .state-postcode input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: red;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@keyframes inputHighlighter {
+  from {
+    background: red;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+#checkout .container-fluid .billingdetails .email-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  /* form starting stylings ------------------------------- */
+  /* LABEL ======================================= */
+  /* active state */
+  /* BOTTOM BARS ================================= */
+  /* active state */
+  /* HIGHLIGHTER ================================== */
+  /* active state */
+  /* ANIMATIONS ================ */
+}
+
+#checkout .container-fluid .billingdetails .email-phone body {
+  background: url(https://scotch.io/wp-content/uploads/2014/07/61.jpg);
+}
+
+#checkout .container-fluid .billingdetails .email-phone .container {
+  font-family: 'Roboto';
+  width: 600px;
+  display: block;
+  background: #FFF;
+  padding: 10px 50px 50px;
+}
+
+#checkout .container-fluid .billingdetails .email-phone h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#checkout .container-fluid .billingdetails .email-phone h2 small {
+  font-weight: normal;
+  color: #888;
+  display: block;
+}
+
+#checkout .container-fluid .billingdetails .email-phone .footer {
+  text-align: center;
+}
+
+#checkout .container-fluid .billingdetails .email-phone .footer a {
+  color: #53B2C8;
+}
+
+#checkout .container-fluid .billingdetails .email-phone .group {
+  margin-top: 12px;
+  position: relative;
+  margin-bottom: 1px;
+  width: 49%;
+}
+
+#checkout .container-fluid .billingdetails .email-phone input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+#checkout .container-fluid .billingdetails .email-phone input:focus {
+  outline: none;
+  border: none !important;
+}
+
+#checkout .container-fluid .billingdetails .email-phone label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+#checkout .container-fluid .billingdetails .email-phone span {
+  color: red;
+}
+
+#checkout .container-fluid .billingdetails .email-phone input:focus ~ label,
+#checkout .container-fluid .billingdetails .email-phone input:valid ~ label {
+  top: -15px;
+  font-size: 14px;
+  color: red;
+}
+
+#checkout .container-fluid .billingdetails .email-phone .bar {
+  position: relative;
+  display: block;
+  width: 280px;
+}
+
+#checkout .container-fluid .billingdetails .email-phone .bar:before,
+#checkout .container-fluid .billingdetails .email-phone .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: red;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+#checkout .container-fluid .billingdetails .email-phone .bar:before {
+  left: 50%;
+}
+
+#checkout .container-fluid .billingdetails .email-phone .bar:after {
+  right: 50%;
+}
+
+#checkout .container-fluid .billingdetails .email-phone input:focus ~ .bar:before,
+#checkout .container-fluid .billingdetails .email-phone input:focus ~ .bar:after {
+  width: 50%;
+}
+
+#checkout .container-fluid .billingdetails .email-phone .highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#checkout .container-fluid .billingdetails .email-phone input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: red;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@keyframes inputHighlighter {
+  from {
+    background: red;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation {
+  margin-top: 15px;
+  /* BOTTOM BARS ================================= */
+  /* active state */
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation h2 {
+  margin-bottom: 1px;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation .orderspan {
+  display: block;
+  font-size: 16px;
+  color: #777777;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation .post {
+  color: red;
+  display: block;
+  margin-top: 10px;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation textarea {
+  display: block;
+  border: 2px solid yellowgreen;
+  width: 96%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation textarea:focus ~ label,
+#checkout .container-fluid .billingdetails .additionalinformation textarea:valid ~ label {
+  top: -15px;
+  font-size: 14px;
+  color: red;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation .bar {
+  position: relative;
+  display: block;
+  width: 280px;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation .bar:before,
+#checkout .container-fluid .billingdetails .additionalinformation .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: red;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation .bar:before {
+  left: 50%;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation .bar:after {
+  right: 50%;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation textarea:focus ~ .bar:before,
+#checkout .container-fluid .billingdetails .additionalinformation textarea:focus ~ .bar:after {
+  width: 50%;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation button {
+  width: 156.58px;
+  height: 46px;
+  background-color: green;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation button:hover {
+  border: 1px solid green;
+  background-color: white;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation button:hover span {
+  color: green;
+}
+
+#checkout .container-fluid .billingdetails .additionalinformation button span {
+  width: 92.59px;
+  height: 16.67px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#checkout .container-fluid .productsaleinfos {
+  width: 635px;
+  height: 520px;
+  padding: 30px;
+  border: 1px solid #d9d9d9;
+}
+
+#checkout .container-fluid .productsaleinfos .product-total {
+  border: 1px solid #d9d9d9;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 25px;
+  color: #444;
+  font-weight: 500;
+  font-size: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+
+#checkout .container-fluid .productsaleinfos .product-total h5 {
+  font-size: 20px;
+  color: #444444;
+  display: inline-block;
+}
+
+#checkout .container-fluid .productsaleinfos .product-total span {
+  float: right;
+  width: 35%;
+  font-size: 14px;
+  line-height: 1.2em;
+  color: #444444;
+  font-weight: 500;
+}
+
+#checkout .container-fluid .productsaleinfos .productscart {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+
+#checkout .container-fluid .productsaleinfos .subtotalprice {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+
+#checkout .container-fluid .productsaleinfos .subtotalprice li {
+  list-style: none;
+}
+
+#checkout .container-fluid .productsaleinfos .subtotalprice li h5 {
+  font-size: 18px;
+  color: #444444;
+  display: inline-block;
+  margin-right: 295px;
+}
+
+#checkout .container-fluid .productsaleinfos .subtotalprice li span {
+  position: relative;
+  font-size: 20px;
+  line-height: 20px;
+  color: #f33927;
+  font-weight: 500;
+}
+
+#checkout .container-fluid .productsaleinfos .totalprice {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+
+#checkout .container-fluid .productsaleinfos .totalprice li {
+  list-style: none;
+}
+
+#checkout .container-fluid .productsaleinfos .totalprice li h5 {
+  font-size: 18px;
+  color: #444444;
+  display: inline-block;
+  margin-right: 324px;
+}
+
+#checkout .container-fluid .productsaleinfos .totalprice li span {
+  position: relative;
+  font-size: 20px;
+  line-height: 20px;
+  color: #f33927;
+  font-weight: 500;
+}
+
+#checkout .container-fluid .productsaleinfos .input .directbank {
+  position: relative;
+}
+
+#checkout .container-fluid .productsaleinfos .input .directbank input {
+  accent-color: greenyellow;
+  width: 20px;
+  height: 20px;
+}
+
+#checkout .container-fluid .productsaleinfos .input .directbank span {
+  font-size: 14px;
+  position: absolute;
+  color: #848484;
+  left: 25px;
+}
+
+#checkout .container-fluid .productsaleinfos .input .paypal {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#checkout .container-fluid .productsaleinfos .input .paypal input {
+  accent-color: greenyellow;
+  width: 20px;
+  height: 20px;
+}
+
+#checkout .container-fluid .productsaleinfos .input .paypal span {
+  font-size: 14px;
+  position: absolute;
+  color: #848484;
+  left: 25px;
+}
+
+#checkout .container-fluid .productsaleinfos button {
+  width: 155px;
+  height: 46px;
+  background-color: green;
+  border: none;
+  border-radius: 4px;
+}
+
+#checkout .container-fluid .productsaleinfos button span {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#checkout .container-fluid .productsaleinfos button:hover {
+  border: 1px solid green;
+  background-color: white;
+}
+
+#checkout .container-fluid .productsaleinfos button:hover span {
+  color: green;
+}
+/*# sourceMappingURL=checkoutpage.css.map */

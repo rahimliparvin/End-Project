@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @media screen and (min-width: 576px) and (max-width: 1100px) {
   #footer .footerimg {
     text-align: start;
@@ -32,14 +37,12 @@
 
 #navigation .col-lg-5 {
   padding: 0px;
-  border-bottom: 1px solid #AAAAAA;
 }
 
 #navigation .col-lg-2 {
   padding: 0px;
   padding-left: 47px;
   padding-top: 13px;
-  border-bottom: 1px solid #AAAAAA;
 }
 
 #navigation .col-lg-12 {
@@ -416,90 +419,149 @@
   color: #dc9814;
 }
 
-#blog-detail .container-fluid {
-  padding-left: 250px;
-  padding-right: 250px;
+#login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: url("../../../image/logbackground.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-#blog-detail .blogdetail {
-  width: 100%;
-  margin-top: 10px;
+#login .form-box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#login .form-box h2 {
+  font-size: 32px;
+  color: #fff;
   text-align: center;
 }
 
-#blog-detail .blogdetail span {
-  font-size: 14px;
-  color: #777777;
+#login .form-box .inputbox {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
 }
 
-#blog-detail .blogdetail p {
-  margin-top: 20px;
-  text-align: justify;
-  color: #777777;
+#login .form-box .inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #fff;
+  font-size: 16px;
+  pointer-events: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-#blog-detail .mainimage {
+#login .form-box .inputbox input:focus ~ label,
+#login .form-box .inputbox input:valid ~ label {
+  top: -5px;
+}
+
+#login .form-box .inputbox input {
   width: 100%;
-  height: 500px;
-  margin-top: 50px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 25px 35px 0 5px;
+  color: #fff;
 }
 
-#blog-detail .mainimage img {
-  width: 858px;
-  height: 450px;
-  -o-object-fit: cover;
-     object-fit: cover;
+#login .form-box .inputbox i {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 20px;
+  top: 20px;
 }
 
-#blog-detail .blogimage {
-  width: 100%;
-  margin-bottom: 35px;
-}
-
-#blog-detail .blogimage img {
-  width: inherit;
-}
-
-#blog-detail .comment {
-  margin-bottom: 50px;
-}
-
-#blog-detail .comment .tagname span {
-  padding: 10px;
-  background-color: #282828;
-  color: white;
-  border-radius: 22px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-size: 14px;
-  margin-left: 3px;
-}
-
-#blog-detail .comment .tagname span:hover {
-  background-color: #dc9814;
-}
-
-#blog-detail .comment .categoryname {
-  margin-top: 20px;
-}
-
-#blog-detail .comment .categoryname p {
+#login .form-box .forget {
+  margin: -15px 0 15px;
   font-size: 15px;
-  color: #777777;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-#blog-detail .comment .categoryname p a {
+#login .form-box .forget label input {
+  margin-right: 3px;
+}
+
+#login .form-box .forget label a {
+  color: #fff;
   text-decoration: none;
-  color: #dc9814;
 }
 
-#blog-detail .comment .categoryname p a:hover {
-  color: #282828;
+#login .form-box .forget label a:hover {
+  text-decoration: underline;
+}
+
+#login .form-box button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#login .form-box .register {
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+
+#login .form-box .register p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+#login .form-box .register p a:hover {
+  text-decoration: underline;
 }
 
 #footer {
   background-color: #282828;
-  margin-top: 50px;
 }
 
 #footer .footerimg {
@@ -600,4 +662,4 @@
 #footer .footersocial ul li a:hover {
   color: #EEEEEE;
 }
-/*# sourceMappingURL=blogdetailpage.css.map */
+/*# sourceMappingURL=loginpage.css.map */

@@ -160,11 +160,16 @@ search.addEventListener("click", function () {
    if(searchArea.classList.contains("d-none")){
 
     searchArea.classList.remove("d-none");
+ 
+    let filterArea = document.querySelector("#categories-search-filter .filter");
+
+    filterArea.classList.add("d-none");
+
    }
    else{
     searchArea.classList.add("d-none");
     document.querySelector("#categories-search-filter .searcharea input").value = "";
-   }
+   };
 
 });
 
@@ -178,6 +183,7 @@ closeIcon.addEventListener("click",function(){
     document.querySelector("#categories-search-filter .searcharea").classList.add("d-none");
 
     document.querySelector("#categories-search-filter .searcharea input").value = "";
+
 
 });
 
@@ -194,8 +200,65 @@ filter.addEventListener("click",function(){
     if(filterArea.classList.contains("d-none")){
 
         filterArea.classList.remove("d-none");
+
+        document.querySelector("#categories-search-filter .searcharea").classList.add("d-none");
+
+        document.querySelector("#categories-search-filter .searcharea input").value = "";
     }
     else{
         filterArea.classList.add("d-none");
     }
+});
+
+
+//////////////////////////// Carouse First Second Image //////////
+
+
+
+let firstImages = document.querySelectorAll("#carousel .mySwiper .productcart .firstimg");
+
+console.log(firstImages);
+
+firstImages.forEach(firstImage => {
+
+    firstImage.addEventListener("mouseover", function () {
+        this.classList.add("d-none");
+    })
+
+    let secondImages = document.querySelectorAll("#carousel .mySwiper  .productcart .secondimg");
+
+    secondImages.forEach(secondImage => {
+        secondImage.addEventListener("mouseout", function () {
+            firstImage.classList.remove("d-none");
+        })
+
+    });
+});
+
+
+////////////////////////////  Carousel Wishlist ///////////////////////////
+
+
+
+let heartsCarousel = document.querySelectorAll(".mySwiper .productcart .like");
+
+heartsCarousel.forEach(heart => {
+
+    heart.addEventListener("click", function () {
+
+        this.classList.add("d-none");
+        this.nextElementSibling.classList.remove("d-none");
+    })
+});
+
+
+let likeHeartsCarousel = document.querySelectorAll(".mySwiper .productcart .dislike");
+
+likeHeartsCarousel.forEach(likeHeart => {
+
+    likeHeart.addEventListener("click", function () {
+
+        this.classList.add("d-none");
+        this.previousElementSibling.classList.remove("d-none");
+    })
 });
