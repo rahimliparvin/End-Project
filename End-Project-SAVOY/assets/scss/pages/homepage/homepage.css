@@ -151,23 +151,20 @@
   cursor: pointer;
 }
 
-#navigation .navright ul li span {
+#navigation .navright ul li a {
   text-decoration: none;
   color: #686868;
   font-family: 'MaisonNeue', sans-serif;
   font-size: 16px;
-}
-
-#navigation .navright ul li span:hover {
-  color: #dc9814;
-}
-
-#navigation .navright ul li span a {
   text-decoration: none;
   color: #686868;
 }
 
-#navigation .navright ul li sup {
+#navigation .navright ul li a:hover {
+  color: #dc9814;
+}
+
+#navigation .navright ul li a sup {
   color: #dc9814;
   position: relative;
   top: -10px;
@@ -681,6 +678,7 @@ swiper-container swiper-slide img {
   color: red;
   position: absolute;
   right: 11px;
+  cursor: pointer;
 }
 
 #tabmenu .content .item .col-lg-3 .productcart .productinfo .pricelike .pricecurrency {
@@ -718,6 +716,136 @@ swiper-container swiper-slide img {
 #tabmenu .content .item .col-lg-3 .productcart .productinfo .rating i {
   color: #dc9814;
   font-size: 16px;
+}
+
+#latestblog {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+#latestblog .container-fluid {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+#latestblog .container-fluid .col-lg-4 {
+  padding: 0px;
+}
+
+#latestblog .container-fluid .blog {
+  width: 90%;
+  padding: 20px;
+  background: #f6f7fb;
+  margin: auto;
+  border-radius: 20px;
+}
+
+#latestblog .container-fluid .blog h5 {
+  color: #dc9814;
+  font-size: 19px;
+}
+
+#latestblog .container-fluid .blog h5 span {
+  margin-left: 10px;
+}
+
+#latestblog .container-fluid .blog h2 {
+  color: #282828;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#latestblog .container-fluid .blog p {
+  color: #686868;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+#latestblog .container-fluid .blog .blogimg {
+  width: 100%;
+  height: 335px;
+  margin: auto;
+}
+
+#latestblog .container-fluid .blog .blogimg img {
+  width: 100%;
+  height: 332px;
+  border-radius: 20px;
+  -o-object-fit: revert;
+     object-fit: revert;
+}
+
+#clientsays {
+  margin-top: 65px;
+  margin-bottom: 85px;
+}
+
+#clientsays .container-fluid {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+#clientsays .container-fluid .col-lg-4 {
+  padding: 0px;
+}
+
+#clientsays .container-fluid .client {
+  width: 80%;
+  margin: auto;
+  background-color: #f6f7fb;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#clientsays .container-fluid .client .clientandcornerphoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#clientsays .container-fluid .client .clientandcornerphoto .corner {
+  width: 100px;
+  height: 100px;
+  border-top-right-radius: 10px;
+  background-color: #0aa70a;
+  border-bottom-left-radius: 100%;
+}
+
+#clientsays .container-fluid .client .clientandcornerphoto .corner .cornerphoto {
+  width: 40px;
+  margin-top: 25px;
+  margin-left: 35px;
+}
+
+#clientsays .container-fluid .client .clientandcornerphoto .clientphoto {
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+#clientsays .container-fluid .client .clientinfo {
+  width: 100%;
+  padding: 25px;
+}
+
+#clientsays .container-fluid .client .clientinfo h4 {
+  color: #282828;
+  margin-top: 5px;
+}
+
+#clientsays .container-fluid .client .clientinfo h5 {
+  color: #686868;
+}
+
+#clientsays .container-fluid .client .clientinfo p {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #979595;
+  text-align: justify;
 }
 
 #footer {

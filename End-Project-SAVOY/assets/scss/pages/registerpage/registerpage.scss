@@ -131,6 +131,7 @@
         }
     }
 
+  
     .navright {
         width: 100%;
         height: 65px;
@@ -149,31 +150,33 @@
                 padding-top: 13px;
                 cursor: pointer;
 
-                span {
+
+
+
+                a {
                     text-decoration: none;
-                    ;
                     color: #686868;
                     font-family: 'MaisonNeue', sans-serif;
                     font-size: 16px;
+                    text-decoration: none;
+                    color: #686868;
+
 
                     &:hover {
                         color: #dc9814;
                     }
 
 
-                    a {
-                        text-decoration: none;
-                        color: #686868;
+                    sup {
+                        color: #dc9814;
+                        position: relative;
+                        top: -10px;
+                        left: 4px;
+                        font-size: 14px;
                     }
                 }
 
-                sup {
-                    color: #dc9814;
-                    position: relative;
-                    top: -10px;
-                    left: 4px;
-                    font-size: 14px;
-                }
+
 
 
                 i {
@@ -191,6 +194,7 @@
         }
     }
 
+    
     .shop-pages {
         width: 180px;
         background-color: #282828;

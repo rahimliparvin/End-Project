@@ -124,6 +124,7 @@
         }
     }
 
+    
     .navright {
         width: 100%;
         height: 65px;
@@ -142,31 +143,33 @@
                 padding-top: 13px;
                 cursor: pointer;
 
-                span {
+
+
+
+                a {
                     text-decoration: none;
-                    ;
                     color: #686868;
                     font-family: 'MaisonNeue', sans-serif;
                     font-size: 16px;
+                    text-decoration: none;
+                    color: #686868;
+
 
                     &:hover {
                         color: #dc9814;
                     }
 
 
-                    a {
-                        text-decoration: none;
-                        color: #686868;
+                    sup {
+                        color: #dc9814;
+                        position: relative;
+                        top: -10px;
+                        left: 4px;
+                        font-size: 14px;
                     }
                 }
 
-                sup {
-                    color: #dc9814;
-                    position: relative;
-                    top: -10px;
-                    left: 4px;
-                    font-size: 14px;
-                }
+
 
 
                 i {
@@ -494,19 +497,19 @@
             color: red;
         }
 
-    
-        .shopcheckout{
+        .shopcheckout {
 
+            width: 100%;
             display: flex;
             justify-content: space-between;
             padding-left: 50px;
-            padding-right: 50px;
+            padding-right: 165px;
+            margin-bottom: 100px;
 
-            .getshop{
+            .getshop {
 
                 display: block;
                 text-decoration: none;
-                position: relative;
                 padding-top: 10px;
                 padding-bottom: 10px;
                 padding-left: 20px;
@@ -515,17 +518,18 @@
                 color: #AAAAAA;
                 font-weight: 500;
                 margin-top: 25px;
+                margin-bottom: 25px;
                 border-radius: 10px;
-    
-                &:hover{
-                    border: 1px solid #282828;
+
+                &:hover {
                     background-color: white;
                     color: #282828;
+                    text-decoration: underline;
                 }
-    
+
             }
-    
-            .getcheckout{
+
+            .getcheckout {
                 display: block;
                 text-decoration: none;
                 padding-top: 10px;
@@ -536,12 +540,13 @@
                 color: #AAAAAA;
                 font-weight: 500;
                 margin-top: 25px;
+                margin-bottom: 25px;
                 border-radius: 10px;
-    
-                &:hover{
-                    border: 1px solid #282828;
+
+                &:hover {
                     background-color: white;
                     color: #282828;
+                    text-decoration: underline;
                 }
             }
         }

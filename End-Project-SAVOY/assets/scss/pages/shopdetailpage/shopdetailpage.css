@@ -119,23 +119,20 @@
   cursor: pointer;
 }
 
-#navigation .navright ul li span {
+#navigation .navright ul li a {
   text-decoration: none;
   color: #686868;
   font-family: 'MaisonNeue', sans-serif;
   font-size: 16px;
-}
-
-#navigation .navright ul li span:hover {
-  color: #dc9814;
-}
-
-#navigation .navright ul li span a {
   text-decoration: none;
   color: #686868;
 }
 
-#navigation .navright ul li sup {
+#navigation .navright ul li a:hover {
+  color: #dc9814;
+}
+
+#navigation .navright ul li a sup {
   color: #dc9814;
   position: relative;
   top: -10px;
@@ -675,7 +672,6 @@
 
 #footer {
   background-color: #282828;
-  margin-top: 50px;
 }
 
 #footer .footerimg {

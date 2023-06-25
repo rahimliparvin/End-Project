@@ -153,23 +153,20 @@
   cursor: pointer;
 }
 
-#navigation .navright ul li span {
+#navigation .navright ul li a {
   text-decoration: none;
   color: #686868;
   font-family: 'MaisonNeue', sans-serif;
   font-size: 16px;
-}
-
-#navigation .navright ul li span:hover {
-  color: #dc9814;
-}
-
-#navigation .navright ul li span a {
   text-decoration: none;
   color: #686868;
 }
 
-#navigation .navright ul li sup {
+#navigation .navright ul li a:hover {
+  color: #dc9814;
+}
+
+#navigation .navright ul li a sup {
   color: #dc9814;
   position: relative;
   top: -10px;
@@ -630,6 +627,7 @@
   color: red;
   position: absolute;
   right: 11px;
+  cursor: pointer;
 }
 
 #categories-search-filter .container-fluid .content .item .col-lg-3 .productcart .productinfo .pricelike .pricecurrency {

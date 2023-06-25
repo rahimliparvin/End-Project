@@ -119,23 +119,20 @@
   cursor: pointer;
 }
 
-#navigation .navright ul li span {
+#navigation .navright ul li a {
   text-decoration: none;
   color: #686868;
   font-family: 'MaisonNeue', sans-serif;
   font-size: 16px;
-}
-
-#navigation .navright ul li span:hover {
-  color: #dc9814;
-}
-
-#navigation .navright ul li span a {
   text-decoration: none;
   color: #686868;
 }
 
-#navigation .navright ul li sup {
+#navigation .navright ul li a:hover {
+  color: #dc9814;
+}
+
+#navigation .navright ul li a sup {
   color: #dc9814;
   position: relative;
   top: -10px;
@@ -455,6 +452,7 @@
 }
 
 #cart .container-fluid .shopcheckout {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -462,13 +460,13 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 165px;
+  margin-bottom: 100px;
 }
 
 #cart .container-fluid .shopcheckout .getshop {
   display: block;
   text-decoration: none;
-  position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -477,13 +475,14 @@
   color: #AAAAAA;
   font-weight: 500;
   margin-top: 25px;
+  margin-bottom: 25px;
   border-radius: 10px;
 }
 
 #cart .container-fluid .shopcheckout .getshop:hover {
-  border: 1px solid #282828;
   background-color: white;
   color: #282828;
+  text-decoration: underline;
 }
 
 #cart .container-fluid .shopcheckout .getcheckout {
@@ -497,13 +496,14 @@
   color: #AAAAAA;
   font-weight: 500;
   margin-top: 25px;
+  margin-bottom: 25px;
   border-radius: 10px;
 }
 
 #cart .container-fluid .shopcheckout .getcheckout:hover {
-  border: 1px solid #282828;
   background-color: white;
   color: #282828;
+  text-decoration: underline;
 }
 
 #footer {
